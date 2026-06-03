@@ -10,42 +10,54 @@ type QA = { q: string; a: string };
 export function FAQ({ locale }: { locale: Locale }) {
   const { t } = useTranslation(locale, "common");
   const items = t("faq.items", { returnObjects: true }) as QA[];
-  const [open, setOpen] = useState<number | null>(0);
+  const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="relative py-28">
-      <div className="mx-auto max-w-[820px] px-6">
-        <div className="text-center">
+    <section id="faq" className="relative py-24">
+      <div className="mx-auto grid max-w-[1240px] gap-12 px-3 lg:grid-cols-[1fr_600px] lg:items-start lg:gap-16">
+        {/* left — heading column */}
+        <div className="lg:pt-8">
           <Badge label={t("faq.badge")} />
-          <h2 className="display mt-7 text-[34px] sm:text-[54px]">
-            {t("faq.title1")} <span className="text-white/55">{t("faq.title2")}</span>
+          <h2 className="mt-7 text-[44px] font-normal leading-[1.05] tracking-[-1.9px] sm:text-[54px]">
+            <span className="block text-white">{t("faq.title1")}</span>
+            <span className="block text-white/60">{t("faq.title2")}</span>
           </h2>
-          <p className="mx-auto mt-5 max-w-[520px] text-[15px] text-white/55">
+          <p className="mt-6 max-w-[400px] text-[16px] leading-[26px] tracking-[-0.2px] text-white/60">
             {t("faq.desc")}
           </p>
         </div>
 
-        <div className="mt-12 space-y-3">
+        {/* right — accordion */}
+        <div className="space-y-3">
           {items.map((item, i) => {
             const isOpen = open === i;
             return (
               <div
                 key={i}
-                className="overflow-hidden rounded-2xl border border-white/[0.08] bg-white/[0.03]"
+                className="overflow-hidden rounded-[20px] border border-white/[0.07] bg-[#080808]"
               >
                 <button
                   type="button"
                   onClick={() => setOpen(isOpen ? null : i)}
-                  className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+                  className="flex w-full cursor-pointer items-center justify-between gap-4 px-[30px] py-[30px] text-left"
                 >
-                  <span className="text-[16px] font-medium text-white">{item.q}</span>
-                  <span
-                    className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/15 text-white/70 transition-transform ${
+                  <span className="text-[18px] font-normal tracking-[-0.5px] text-white">
+                    {item.q}
+                  </span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    className={`shrink-0 text-white transition-transform duration-300 ${
                       isOpen ? "rotate-45" : ""
                     }`}
                   >
-                    +
-                  </span>
+                    <path d="M12 5v14M5 12h14" />
+                  </svg>
                 </button>
                 <div
                   className={`grid transition-all duration-300 ease-out ${
@@ -53,7 +65,7 @@ export function FAQ({ locale }: { locale: Locale }) {
                   }`}
                 >
                   <div className="overflow-hidden">
-                    <p className="px-6 pb-5 text-[14px] leading-relaxed text-white/55">
+                    <p className="px-[30px] pb-[30px] text-[15px] leading-relaxed text-white/55">
                       {item.a}
                     </p>
                   </div>

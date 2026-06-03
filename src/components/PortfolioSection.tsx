@@ -15,8 +15,8 @@ export async function PortfolioSection({ locale }: { locale: Locale }) {
   const tech = t("portfolio.tech", { returnObjects: true }) as string[];
 
   return (
-    <section id="portfolio" className="relative py-16">
-      <div className="mx-auto flex max-w-[1320px] flex-col items-center gap-10 px-4 sm:px-6">
+    <section id="portfolio" className="relative pb-8">
+      <div className="mx-auto flex max-w-[1240px] flex-col items-center gap-10 px-4 sm:px-6">
         {/* header */}
         <div className="flex flex-col items-center gap-3 text-center">
           <Badge label={t("portfolio.badge")} />
@@ -108,7 +108,7 @@ export async function PortfolioSection({ locale }: { locale: Locale }) {
             {/* purple rays backdrop */}
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-10%,rgba(99,52,224,0.55),rgba(79,26,214,0.12)_45%,transparent_72%)]" />
             <Image
-              src="/assets/portfolio.png"
+              src="/assets/portfolio1.png"
               alt={t("portfolio.cardTitle")}
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"

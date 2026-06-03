@@ -16,7 +16,7 @@ export async function Navbar({ locale }: { locale: Locale }) {
   const { t } = await getTranslation(locale);
   return (
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/5 bg-black/40 backdrop-blur-md">
-      <nav className="max-w-[1320px] mx-auto h-[72px] px-6 flex items-center justify-between">
+      <nav className="max-w-[1240px] mx-auto h-[72px] px-3 flex items-center justify-between">
         <Link href="#home" className="flex items-center gap-2.5">
           <Image src="/assets/imfsys-logo.svg" alt="imfsys" width={28} height={28} />
           <span className="text-[20px] font-medium tracking-tight">imfsys</span>

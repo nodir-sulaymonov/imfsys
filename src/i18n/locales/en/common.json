@@ -141,6 +141,11 @@
       "Flutter"
     ]
   },
+  "team": {
+    "badge": "Team",
+    "title": "Other projects our team has worked on.",
+    "desc": "Uztech is a new company, but our team isn't. Here's what our people contributed to various products and international projects before."
+  },
   "integrations": {
     "badge": "Integrations",
     "title1": "Seamless Integrations for",
@@ -227,7 +232,7 @@
     "subscribeForm": "Subscribe Form",
     "emailPlaceholder": "Enter Your Email...",
     "subscribeBtn": "Subscribe Us",
-    "copyright": "© 2025 copyright imfsys",
+    "copyright": "© 2026 copyright imfsys",
     "terms": "Terms & Conditions",
     "pages": [
       "Home",

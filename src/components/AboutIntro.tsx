@@ -7,9 +7,9 @@ export async function AboutIntro({ locale }: { locale: Locale }) {
   const { t } = await getTranslation(locale);
   return (
     <section id="about" className="relative overflow-hidden py-8">
-      <div className="max-w-[900px] mx-auto px-6 text-center">
+      <div className="max-w-[1240px] mx-auto px-6 text-center">
         <Badge label={t("about.badge")} />
-        <h2 className="display mt-8 text-[30px] sm:text-[44px] leading-[1.15]">
+        <h2 className="display mx-auto mt-8 max-w-[900px] text-[30px] sm:text-[44px] leading-[1.15]">
           {t("about.text")}
         </h2>
         <div className="mt-9">

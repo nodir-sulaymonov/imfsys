@@ -32,7 +32,7 @@ const RADIUS = 47; // percent of the ring half-size
 export function TechCircle({ children }: { children?: ReactNode }) {
   const n = TECH.length;
   return (
-    <div className="relative mx-auto w-full max-w-[1280px]">
+    <div className="relative mx-auto w-full max-w-[1240px]">
       <div
         className="relative aspect-[2/1] overflow-hidden"
         style={{
@@ -75,7 +75,7 @@ export function TechCircle({ children }: { children?: ReactNode }) {
         </div>
       </div>
       <div className="pointer-events-none absolute bottom-0 left-1/2 h-[55%] w-1/2 -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(110,86,207,0.22),transparent_70%)] blur-3xl" />
-      <div className="absolute inset-x-0 bottom-3 z-10 mx-auto w-[86%] max-w-[760px] text-center">
+      <div className="relative z-10 mx-auto md:mt-2 w-[92%] max-w-[760px] px-2 text-center sm:absolute sm:inset-x-0 sm:bottom-3 sm:mt-0 sm:w-[86%]">
         {children}
       </div>
     </div>

@@ -38,10 +38,10 @@ export async function Hero({ locale }: { locale: Locale }) {
         />
       </div>
 
-      <div className="relative z-10 max-w-[1100px] mx-auto px-6">
+      <div className="relative z-10 max-w-[1240px] mx-auto px-6">
         <span className="eyebrow mb-8">
           <span className="rounded-full bg-gradient-to-b from-[#4f1ad6] to-[#8059e3] px-2.5 py-0.5 text-[12px] font-medium text-white">
-            2025
+            2026
           </span>
           {t("hero.badge")}
         </span>
@@ -59,9 +59,6 @@ export async function Hero({ locale }: { locale: Locale }) {
         <div className="mt-9 flex items-center justify-center gap-3">
           <Link href="#contact" className="btn-light">
             {t("hero.connect")}
-          </Link>
-          <Link href="#about" className="btn-dark">
-            What is imfsys?
           </Link>
         </div>
       </div>

@@ -141,6 +141,30 @@ body {
   background: radial-gradient(50% 50% at 50% 50%, rgba(110, 86, 207, 0.35), transparent 70%);
 }
 
+/* Integrations — purple circle that appears and spreads out like a wave.
+   The wave plays during the first third of the cycle, then stays hidden,
+   so two sets offset by half the cycle take turns instead of overlapping. */
+@keyframes integ-ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0.3);
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  33% {
+    transform: translate(-50%, -50%) scale(2.1);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2.1);
+    opacity: 0;
+  }
+}
+.integ-ripple {
+  animation: integ-ripple 3s ease-out infinite;
+}
+
 /* Tech orbit — tiles travel clockwise (appear left, exit right across the top) */
 @keyframes tech-orbit {
   from { transform: rotate(0deg); }

@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   title: "imfsys — Technology-driven Business Solutions",
   description:
     "Creating latest solutions that redefine innovation. Stay ahead with AI-powered technology for the future.",
+  icons: {
+    icon: "/assets/imfsys-logo.svg",
+    shortcut: "/assets/imfsys-logo.svg",
+    apple: "/assets/imfsys-logo.svg",
+  },
 };
 
 export async function generateStaticParams() {
@@ -32,7 +37,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${dmSans.variable} antialiased`}>
-      <body className="min-h-screen bg-black text-white font-sans">
+      <body
+        className="min-h-screen bg-black text-white font-sans"
+        suppressHydrationWarning
+      >
         <Navbar locale={locale} />
         <main>{children}</main>
         <Footer locale={locale} />

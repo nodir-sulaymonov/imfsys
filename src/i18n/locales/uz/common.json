@@ -141,6 +141,11 @@
       "Flutter"
     ]
   },
+  "team": {
+    "badge": "Jamoa",
+    "title": "Bizning jamoa qatnashgan boshqa loyihalar.",
+    "desc": "Uztech yangi kompaniya, ammo jamoamiz emas. Bu yerda hodimlarimiz ilgari turli xil mahsulot va xalqaro buyurtmalarda qo'shgan hissalari."
+  },
   "integrations": {
     "badge": "Integratsiyalar",
     "title1": "Uzluksiz integratsiyalar",
@@ -227,7 +232,7 @@
     "subscribeForm": "Obuna",
     "emailPlaceholder": "Email manzilingizni kiriting...",
     "subscribeBtn": "Obuna bo'lish",
-    "copyright": "© 2025 imfsys. Barcha huquqlar himoyalangan",
+    "copyright": "© 2026 imfsys. Barcha huquqlar himoyalangan",
     "terms": "Foydalanish shartlari",
     "pages": [
       "Bosh sahifa",

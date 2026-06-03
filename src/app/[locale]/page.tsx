@@ -3,6 +3,7 @@ import { AboutIntro } from "@/components/AboutIntro";
 import { Features } from "@/components/Features";
 import { ServicesSection } from "@/components/ServicesSection";
 import { PortfolioSection } from "@/components/PortfolioSection";
+import { TeamSection } from "@/components/TeamSection";
 import { Integrations } from "@/components/Integrations";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { FAQ } from "@/components/FAQ";
@@ -24,6 +25,7 @@ export default async function Home({
       <Features locale={locale} />
       <ServicesSection locale={locale} />
       <PortfolioSection locale={locale} />
+      <TeamSection locale={locale} />
       <Integrations locale={locale} />
       <TestimonialsSection locale={locale} />
       <FAQ locale={locale} />
