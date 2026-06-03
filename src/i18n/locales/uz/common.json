@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "portfolio": "Portfolio",
+    "contact": "Aloqa",
+    "faq": "Savollar",
+    "getInTouch": "Bog'lanish"
+  },
+  "hero": {
+    "badge": "Yangi avlod AI studiyasi",
+    "title1": "AI asosidagi muvaffaqiyat",
+    "title2": "Kelajakni qayta belgilaymiz.",
+    "desc": "Innovatsiyani qayta belgilaydigan eng so'nggi yechimlarni yaratamiz. AI texnologiyalari bilan kelajakda oldinda bo'ling.",
+    "connect": "Biz bilan bog'lanish"
+  },
+  "about": {
+    "badge": "Biz haqimizda",
+    "text": "Ijodkorlik, hamkorlik va yuksak mahorat asosida qurilgan imfsys — bu mukammal natijalarga erishishga bag'ishlangan soha mutaxassislaridan iborat faol jamoa…",
+    "book": "Uchrashuvga yozilish"
+  },
+  "features": {
+    "badge": "Imkoniyatlar",
+    "title": "Innovatsiyalarga to'la.",
+    "desc": "imfsys biznesingizni yuqori darajaga ko'taradigan o'ylangan imkoniyatlarga boy.",
+    "fullcycle": {
+      "title": "To'liq tsikl ishlab chiqish",
+      "desc": "G'oyadan deploygacha — dizayn, frontend, backend, infrastruktura. Bitta jamoa, bitta mas'uliyat."
+    },
+    "cleancode": {
+      "title": "Toza va qo'llab quvvatlanadigan kod",
+      "desc": "Test, hujjat, code review — har bir kommit. Mahsulotingiz 5 yil keyin ham yangilanishga tayyor."
+    },
+    "deadlines": {
+      "title": "Aniq muddatlar, shaffof jarayon",
+      "desc": "Har hafta demo, har sprint hisobot. Loyihangiz qaerdaligini har doim bilib turasiz."
+    },
+    "api": {
+      "title": "Uzluksiz API integratsiyalari",
+      "desc": "imfsys keng ko'lamli uchinchi tomon integratsiyalarini qo'llab-quvvatlaydi."
+    },
+    "auth": {
+      "title": "Ishonchli autentifikatsiya",
+      "desc": "Yetakchi platformalar va jarayonlar bilan tez integratsiya."
+    },
+    "speech": {
+      "title": "AI nutqni tanish",
+      "desc": "Ilovalaringizga ovoz orqali tinglash va boshqarish imkonini bering.",
+      "label": "Nutqni tanish"
+    },
+    "tags": [
+      "Ma'lumot tahlili",
+      "Chatbotlar",
+      "Imkoniyatlar",
+      "Infratuzilma",
+      "Intellekt",
+      "Kognitiv"
+    ],
+    "realtime": {
+      "title": "Real vaqt ma'lumotlari",
+      "desc": "Tezroq qaror qabul qilish uchun bir zumda tahlil."
+    },
+    "vision": {
+      "title": "Kompyuter ko'rishi",
+      "desc": "AI asosida rasm va video tanish."
+    },
+    "ux": {
+      "title": "Optimallashtirilgan UX/UI",
+      "desc": "Foydalanuvchi tajribasini yaxshilaydigan aqlli dizayn."
+    },
+    "predictive": {
+      "title": "Bashoratli tahlil",
+      "desc": "AI yordamida ma'lumotga asoslangan qarorlar qabul qiling."
+    }
+  },
+  "technologies": {
+    "badge": "Texnologiyalar",
+    "button": "Bog'lanish"
+  },
+  "services": {
+    "badge": "Xizmatlar",
+    "title": "Biznesingiz uchun to'liq texnologik yechimlar",
+    "desc": "Startupdan korporatsiyagacha — har bir mijozga moslangan, kengaytirilishi mumkin bo'lgan arxitektura va sifatli kod.",
+    "book": "Book a 15-min call",
+    "items": {
+      "web": {
+        "title": "Veb ilovalar",
+        "desc": "SaaS platformalar, CRM/ERP tizimlari, marketplace va admin panellar. React, Next.js va Node.js asosida."
+      },
+      "mobile": {
+        "title": "Mobil ilovalar",
+        "desc": "iOS va Android uchun cross-platform yechimlar. Flutter va React Native bilan tezkor, sezgir interfeyslar."
+      },
+      "backend": {
+        "title": "Backend & API",
+        "desc": "Mikroservislar, REST/GraphQL API, real-time tizimlar. Yuqori yuk va xavfsizlik talablariga moslangan."
+      },
+      "uiux": {
+        "title": "UI/UX dizayn",
+        "desc": "Foydalanuvchi tadqiqotidan high-fidelity prototipgacha. Konversiyani oshiradigan, sevib ishlatiladigan interfeyslar."
+      },
+      "devops": {
+        "title": "DevOps & Cloud",
+        "desc": "CI/CD pipeline, konteynerizatsiya, monitoring va auto-scaling. Infratuzilmangiz har doim ishonchli ishlaydi."
+      },
+      "ai": {
+        "title": "AI integratsiya",
+        "desc": "Mahsulotingizga AI imkoniyatlari: chat-botlar, hujjat tahlili, tavsiya tizimlari va kontent generatsiyasi."
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio",
+    "title": "Birinchi loyiha — bosh barmoq bilan bajarilgan.",
+    "desc": "Uztech jamoasi sifatida biz hozirgacha bitta to'liq mustaqil mahsulotni boshidan oxirigacha amalga oshirdik. Va u biz uchun visit-kartochka.",
+    "cardTags": [
+      "Logistic",
+      "2025–2026"
+    ],
+    "cardTitle": "FlexObo — logistika kompaniyalari uchun avtomatlashtirilgan boshqaruv platformasi",
+    "cardDesc": "Yuk tashish kompaniyalari uchun yagona ekosistema: buyurtmalar, haydovchilar, yo'nalishlarni real-time kuzatish, hujjat aylanishi va moliyaviy hisobotlar. G'oyadan ishga tushirishgacha — to'liq Uztech jamoasining mehnati.",
+    "stats": [
+      {
+        "value": "11 oy",
+        "label": "Ishlab chiqish"
+      },
+      {
+        "value": "4 200+",
+        "label": "Faol foydalanuvchi"
+      },
+      {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    ],
+    "tech": [
+      "Next.js",
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "Flutter"
+    ]
+  },
+  "integrations": {
+    "badge": "Integratsiyalar",
+    "title1": "Uzluksiz integratsiyalar",
+    "title2": "maksimal samaradorlik uchun.",
+    "desc": "imfsys yetakchi vositalar va platformalar bilan oson integratsiyalashib, qulay va samarali ish jarayonini ta'minlaydi.",
+    "button": "imfsys haqida batafsil"
+  },
+  "testimonials": {
+    "badge": "Sharhlar",
+    "title1": "Mijozlarimiz nima deydi",
+    "title2": "imfsys mahorati haqida",
+    "desc": "Mamnun mijozlarimizni tinglang! Biz ularga maqsadlariga erishishda qanday yordam berganimizni ko'ring.",
+    "book": "Uchrashuvga yozilish",
+    "items": [
+      {
+        "role": "CEO, Innovate Solutions",
+        "quote": "Ular nafaqat yuqori darajadagi sayt yaratdi, balki raqamli mavjudligimizni yaxshilashga yordam bergan strategik maslahatlar ham berdi."
+      },
+      {
+        "role": "Mahsulot menejeri, Nexus Digital",
+        "quote": "Jamoa murakkab talablarimizni tushundi va bozorda ajralib turadigan qulay, yuqori samarali sayt taqdim etdi."
+      },
+      {
+        "role": "Asoschi, GreenLeaf Enterprises",
+        "quote": "Ularning innovatsion yechimlari jarayonlarimizni soddalashtirdi, dizayn va ishlab chiqish ham funksional, ham ajoyib."
+      },
+      {
+        "role": "Kreativ direktor, PixelWorks Studio",
+        "quote": "Ijodiy yondashuv va tafsilotlarga e'tibor bizni hayratda qoldirdi. Jamoa g'oyalarimizni ajoyib saytga aylantirdi."
+      },
+      {
+        "role": "Jamoa rahbari, Mandro Designs",
+        "quote": "Ular barcha ehtiyojlarimizni qondiradigan individual yechim taqdim etdi. Sayt zamonaviy, funksional va mijoz tajribasini yaxshiladi."
+      },
+      {
+        "role": "Asoschi, Fusion Studios",
+        "quote": "Ularning fidoyiligi va tafsilotlarga e'tibori tengsiz. Sayt brendimizni mukammal aks ettiradi."
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Savollar",
+    "title1": "Ko'p beriladigan",
+    "title2": "savollar",
+    "desc": "Savollaringiz bormi? FAQ bo'limimizda eng ko'p beriladigan savollarga tezkor javoblar mavjud.",
+    "items": [
+      {
+        "q": "Boshlash uchun nima kerak?",
+        "a": "Shunchaki g'oyangiz bilan bizga murojaat qiling. Rejalashtirishdan ishga tushirishgacha har bir bosqichda yordam beramiz — texnik bilim shart emas."
+      },
+      {
+        "q": "Qanday moslashtirish imkoniyatlari bor?",
+        "a": "Barcha ranglar, shriftlar, tartib va bo'limlar to'liq moslashtiriladi, shunda natija brendingizga mos keladi."
+      },
+      {
+        "q": "Yangi boshlovchi uchun tahrirlash qanchalik oson?",
+        "a": "Juda oson. Biz toza, yaxshi tuzilgan komponentlardan foydalanamiz, shuning uchun o'zgartirishlar oddiy va xavfsiz."
+      },
+      {
+        "q": "Pulni qaytarish kafolati haqida batafsil?",
+        "a": "Biz 30 kunlik pulni qaytarish kafolatini beramiz — agar mos kelmasa, pulingizni to'liq qaytaramiz."
+      },
+      {
+        "q": "Dasturlashni bilishim kerakmi?",
+        "a": "Yo'q. Hammasini vizual boshqarish mumkin. Dasturlash bilimi majburiy emas."
+      },
+      {
+        "q": "Xariddan keyin nima olaman?",
+        "a": "Siz to'liq yechim, doimiy yangilanishlar va qo'llab-quvvatlash jamoamizga kirish huquqini olasiz."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Bizning bir qismimiz bo'ling",
+    "title1": "Brendingizni yuksaltirishga tayyormisiz",
+    "title2": "yangi avlod innovatsiyalari bilan?",
+    "desc": "Keyingi qadamni tashlashga tayyormisiz? Hoziroq bizga qo'shiling va g'oyangizni mutaxassis yordami bilan voqelikka aylantiring.",
+    "book": "Uchrashuvga yozilish"
+  },
+  "footer": {
+    "tagline": "Kelajakni quruvchi jamoalar uchun texnologik yechimlar.",
+    "templatePages": "Sahifalar",
+    "social": "Ijtimoiy tarmoqlar",
+    "subscribeForm": "Obuna",
+    "emailPlaceholder": "Email manzilingizni kiriting...",
+    "subscribeBtn": "Obuna bo'lish",
+    "copyright": "© 2025 imfsys. Barcha huquqlar himoyalangan",
+    "terms": "Foydalanish shartlari",
+    "pages": [
+      "Bosh sahifa",
+      "Biz haqimizda",
+      "Portfolio",
+      "Aloqa",
+      "Savollar"
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "getInTouch": "Get In Touch"
+  },
+  "hero": {
+    "badge": "Next-Gen AI Studio",
+    "title1": "AI-Driven Success",
+    "title2": "Redefining the Future.",
+    "desc": "Creating latest solutions that redefine innovation. Stay ahead with AI-powered technology for the future.",
+    "connect": "Connect With Us"
+  },
+  "about": {
+    "badge": "About Us",
+    "text": "Built on creativity, collaboration, and top excellence, imfsys is a dynamic team of industry experts committed to achieving exceptional great results…",
+    "book": "Book an Appointment"
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Packed with Innovation.",
+    "desc": "imfsys is packed with judge features designed to elevate your agency in portfolio.",
+    "fullcycle": {
+      "title": "Full-cycle development",
+      "desc": "From idea to deploy — design, frontend, backend, infrastructure. One team, one responsibility."
+    },
+    "cleancode": {
+      "title": "Clean, maintainable code",
+      "desc": "Tests, docs, code review — on every commit. Your product stays ready to evolve years later."
+    },
+    "deadlines": {
+      "title": "Clear deadlines, transparent process",
+      "desc": "A demo every week, a report every sprint. You always know where your project stands."
+    },
+    "api": {
+      "title": "Seamless API Integrations",
+      "desc": "imfsys expands a wide range of third-party integrations."
+    },
+    "auth": {
+      "title": "Trusted Authentication",
+      "desc": "Quickly integrate with major platforms to workflows."
+    },
+    "speech": {
+      "title": "AI-Speech Recognition",
+      "desc": "Enable your apps to listen & navigate your site using speech.",
+      "label": "Speech Recognition"
+    },
+    "tags": [
+      "Data Analysis",
+      "Chatbots",
+      "Capabilities",
+      "Infrastructure",
+      "Intelligent",
+      "Cognitive"
+    ],
+    "realtime": {
+      "title": "Real-Time Data",
+      "desc": "Instant insights for faster decision-making."
+    },
+    "vision": {
+      "title": "Vision Capabilities",
+      "desc": "AI-powered image and video recognition."
+    },
+    "ux": {
+      "title": "Optimized UX/UI",
+      "desc": "Smart design that enhances user experience."
+    },
+    "predictive": {
+      "title": "Predictive Analytics",
+      "desc": "Make data-driven decisions with AI insights."
+    }
+  },
+  "technologies": {
+    "badge": "Technologies",
+    "button": "Get In Touch"
+  },
+  "services": {
+    "badge": "Services",
+    "title": "Complete technology solutions for your business",
+    "desc": "From startup to enterprise — architecture tailored to each client, scalable and built with quality code.",
+    "book": "Book a 15-min call",
+    "items": {
+      "web": {
+        "title": "Web applications",
+        "desc": "SaaS platforms, CRM/ERP systems, marketplaces and admin panels. Built on React, Next.js and Node.js."
+      },
+      "mobile": {
+        "title": "Mobile applications",
+        "desc": "Cross-platform solutions for iOS and Android. Fast, responsive interfaces with Flutter and React Native."
+      },
+      "backend": {
+        "title": "Backend & API",
+        "desc": "Microservices, REST/GraphQL APIs, real-time systems. Built for high load and strict security requirements."
+      },
+      "uiux": {
+        "title": "UI/UX design",
+        "desc": "From user research to high-fidelity prototypes. Interfaces people love to use that boost conversion."
+      },
+      "devops": {
+        "title": "DevOps & Cloud",
+        "desc": "CI/CD pipelines, containerization, monitoring and auto-scaling. Your infrastructure always runs reliably."
+      },
+      "ai": {
+        "title": "AI integration",
+        "desc": "AI capabilities for your product: chatbots, document analysis, recommendation systems and content generation."
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio",
+    "title": "First project — built by hand.",
+    "desc": "As the Uztech team, we've so far delivered one fully independent product from start to finish. And it's our calling card.",
+    "cardTags": [
+      "Logistic",
+      "2025–2026"
+    ],
+    "cardTitle": "FlexObo — automated management platform for logistics companies",
+    "cardDesc": "A single ecosystem for freight companies: orders, drivers, real-time route tracking, document flow and financial reports. From idea to launch — fully built by the Uztech team.",
+    "stats": [
+      {
+        "value": "11 mo",
+        "label": "Development"
+      },
+      {
+        "value": "4,200+",
+        "label": "Active users"
+      },
+      {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    ],
+    "tech": [
+      "Next.js",
+      "NestJS",
+      "PostgreSQL",
+      "Redis",
+      "Flutter"
+    ]
+  },
+  "integrations": {
+    "badge": "Integrations",
+    "title1": "Seamless Integrations for",
+    "title2": "Maximum Efficiency.",
+    "desc": "imfsys seamlessly integrates with leading tools and platforms, ensuring a smooth and efficient workflow.",
+    "button": "View About imfsys"
+  },
+  "testimonials": {
+    "badge": "Testimonial",
+    "title1": "What Our Clients Say",
+    "title2": "About imfsys's Excellence",
+    "desc": "Hear from our happy clients! See how we've helped them achieve their goals and create lasting impact.",
+    "book": "Book An Appointment",
+    "items": [
+      {
+        "role": "CEO, Innovate Solutions",
+        "quote": "They not only delivered a top-notch website but also provided strategic insights that helped us improve our overall digital presence."
+      },
+      {
+        "role": "Product Manager, Nexus Digital",
+        "quote": "The team understood our complex requirements and provided a user-friendly, high-performing website that stands out in the market."
+      },
+      {
+        "role": "Founder, GreenLeaf Enterprises",
+        "quote": "Their innovative solutions helped streamline our operations, and the design and development is both functional and visually stunning."
+      },
+      {
+        "role": "Creative Director, PixelWorks Studio",
+        "quote": "We were blown away by the creative approach and attention to detail. The team took our ideas and turned them into a stunning website."
+      },
+      {
+        "role": "Team Lead, Mandro Designs",
+        "quote": "They delivered a customized solution that addressed all of our business needs. The website is sleek, functional, and improved our customer experience."
+      },
+      {
+        "role": "Founder, Fusion Studios",
+        "quote": "Their dedication and attention to detail are unmatched. They delivered a beautifully designed website that perfectly reflects our brand."
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title1": "Frequently",
+    "title2": "Asked Questions",
+    "desc": "Have questions? Our FAQ section has you covered with quick answers to the most common inquiries.",
+    "items": [
+      {
+        "q": "What do I need to get started?",
+        "a": "Just reach out to us with your idea. We'll guide you through every step — from planning to launch — no technical knowledge required."
+      },
+      {
+        "q": "What kind of customization is available?",
+        "a": "Every color, font, layout, and section is fully customizable so the result matches your brand perfectly."
+      },
+      {
+        "q": "How easy is it to edit for beginners?",
+        "a": "Very easy. We build with clean, well-structured components so changes are simple and safe."
+      },
+      {
+        "q": "Let me know more about moneyback guarantee?",
+        "a": "We offer a 30-day money-back guarantee — if it isn't the right fit, we'll refund you in full."
+      },
+      {
+        "q": "Do I need to know how to code?",
+        "a": "No. Everything can be managed visually. Coding knowledge is optional, not required."
+      },
+      {
+        "q": "What will I get after purchasing the template?",
+        "a": "You get the full solution, ongoing updates, and access to our support team."
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Become a Part of Us",
+    "title1": "Ready to Elevate Your Brand",
+    "title2": "with Next-Gen Innovation?",
+    "desc": "Ready to take the next step? Join us now and start transforming your vision into reality with expert support.",
+    "book": "Book an Appointment"
+  },
+  "footer": {
+    "tagline": "Technology-driven solutions crafted for teams building the future.",
+    "templatePages": "Template Pages",
+    "social": "Social",
+    "subscribeForm": "Subscribe Form",
+    "emailPlaceholder": "Enter Your Email...",
+    "subscribeBtn": "Subscribe Us",
+    "copyright": "© 2025 copyright imfsys",
+    "terms": "Terms & Conditions",
+    "pages": [
+      "Home",
+      "About",
+      "Portfolio",
+      "Contact",
+      "FAQ"
+    ]
+  }
+}

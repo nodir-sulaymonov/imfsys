@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  /* Brand violet gradient */
+  --violet: #4f1ad6;
+  --violet-bright: #8059e3;
+  --violet-soft: #8059e3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-violet: var(--violet);
+  --color-violet-bright: var(--violet-bright);
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #000;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Big headings in the template use the light/regular weight */
+.display {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+/* Section eyebrow pill (gradient badge + label) */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px 6px 8px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+/* Glass card */
+.card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.01));
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 22px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Buttons */
+.btn-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0a0a0f;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-light:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
+}
+
+.btn-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.2s ease;
+}
+.btn-dark:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.btn-violet {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(180deg, #4f1ad6 0%, #8059e3 100%);
+  box-shadow: 0 8px 24px rgba(79, 26, 214, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-violet:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 32px rgba(79, 26, 214, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* Marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+/* Subtle radial section glow helper */
+.glow-violet {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(110, 86, 207, 0.35), transparent 70%);
+}
+
+/* Tech orbit — tiles travel clockwise (appear left, exit right across the top) */
+@keyframes tech-orbit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes tech-orbit-rev {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+.tech-orbit {
+  animation: tech-orbit 60s linear infinite;
+}
+.tech-orbit-rev {
+  animation: tech-orbit-rev 60s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tech-orbit,
+  .tech-orbit-rev {
+    animation: none;
+  }
+}
+
+/* Sun rays — slowly rotating beams + pulsing core */
+@keyframes sun-spin {
+  from { transform: translateX(-50%) rotate(0deg); }
+  to { transform: translateX(-50%) rotate(360deg); }
+}
+@keyframes sun-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+.sun-rays {
+  animation: sun-spin 70s linear infinite;
+}
+.sun-glow {
+  animation: sun-pulse 6s ease-in-out infinite;
+}
+
+/* Light-ray fan — thin rays fanning out from points near the top center.
+   Each ray fades in and out (appearing/disappearing) while its width breathes,
+   staggered per ray — like the reference. */
+@keyframes ray-pulse {
+  0% { opacity: 0; transform: scaleX(0.4); }
+  45% { opacity: 1; transform: scaleX(1.2); }
+  100% { opacity: 0; transform: scaleX(0.4); }
+}
+.beam-flicker {
+  transform-origin: top center;
+  animation: ray-pulse 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sun-rays,
+  .sun-glow,
+  .beam-flicker {
+    animation: none;
+    opacity: 0.7;
+  }
+}

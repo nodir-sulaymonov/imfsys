@@ -1,0 +1,6 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" rx="25" fill="url(#g_cc)"/>
+<path d="M34 18C31.8786 16.17 28.6351 15 25 15C21.3649 15 18.1214 16.17 16 18V24C16 32 25 35 25 35C25 35 34 32 34 24V18Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1" y="1" width="48" height="48" rx="24" stroke="white" stroke-opacity="0.15" stroke-width="2"/>
+<defs><linearGradient id="g_cc" x1="25" y1="0" x2="25" y2="50" gradientUnits="userSpaceOnUse"><stop stop-color="#4F1AD6"/><stop offset="1" stop-color="#8059E3"/></linearGradient></defs>
+</svg>
