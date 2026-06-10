@@ -1,19 +1,13 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
 import "../globals.css";
 import { languages, type Locale } from "@/i18n/settings";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  variable: "--font-dm-sans",
-});
-
 export const metadata: Metadata = {
-  title: "imfsys — Technology-driven Business Solutions",
+  title: "IMFSYS — Software Engineering & AI Solutions",
   description:
-    "Creating latest solutions that redefine innovation. Stay ahead with AI-powered technology for the future.",
+    "Software engineering and AI solutions for scalable products, intelligent analytics platforms and automation systems.",
   icons: {
     icon: "/assets/imfsys-logo.svg",
     shortcut: "/assets/imfsys-logo.svg",
@@ -36,7 +30,7 @@ export default async function LocaleLayout({
   const locale = localeParam as Locale;
 
   return (
-    <html lang={locale} className={`${dmSans.variable} antialiased`}>
+    <html lang={locale} className="antialiased">
       <body
         className="min-h-screen bg-black text-white font-sans"
         suppressHydrationWarning

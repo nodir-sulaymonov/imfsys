@@ -11,6 +11,7 @@ const ICON_PATHS: Record<string, string> = {
   uiux: "M14 4l6 6M4 20s1-4 4-4 3 3 3 3M18 6l-9 9-2-2 9-9 2 2Z",
   devops: "M7 18a4 4 0 0 1-.5-7.97A5 5 0 0 1 16 8.5a3.5 3.5 0 0 1 1 6.85",
   ai: "M12 3l1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3ZM18 14l.9 2.1L21 17l-2.1.9L18 20l-.9-2.1L15 17l2.1-.9L18 14Z",
+  bi: "M4 19V5M4 19h16M8 16v-5M12 16V8M16 16v-3M8 7h8M16 7l-2-2M16 7l-2 2",
 };
 
 const SERVICES = [
@@ -20,6 +21,7 @@ const SERVICES = [
   { key: "uiux", badges: ["Figma", "Claude Design", "Prototyping"] },
   { key: "devops", badges: ["Docker", "Kubernetes", "AWS"] },
   { key: "ai", badges: ["OpenAI", "LangChain", "RAG"] },
+  { key: "bi", badges: ["OpenAI", "Claude", "LangChain", "PostgreSQL", "Power BI", "Looker Studio"] },
 ];
 
 export async function ServicesSection({ locale }: { locale: Locale }) {

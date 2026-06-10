@@ -14,7 +14,7 @@
   --color-foreground: var(--foreground);
   --color-violet: var(--violet);
   --color-violet-bright: var(--violet-bright);
-  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
 }
 
 html {

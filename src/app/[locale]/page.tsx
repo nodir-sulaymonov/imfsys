@@ -2,6 +2,8 @@ import { Hero } from "@/components/Hero";
 import { AboutIntro } from "@/components/AboutIntro";
 import { Features } from "@/components/Features";
 import { ServicesSection } from "@/components/ServicesSection";
+import { AIAnalyticsSection } from "@/components/AIAnalyticsSection";
+import { IndustriesSection } from "@/components/IndustriesSection";
 import { PortfolioSection } from "@/components/PortfolioSection";
 import { TeamSection } from "@/components/TeamSection";
 import { Integrations } from "@/components/Integrations";
@@ -24,6 +26,8 @@ export default async function Home({
       <AboutIntro locale={locale} />
       <Features locale={locale} />
       <ServicesSection locale={locale} />
+      <AIAnalyticsSection locale={locale} />
+      <IndustriesSection locale={locale} />
       <PortfolioSection locale={locale} />
       <TeamSection locale={locale} />
       <Integrations locale={locale} />

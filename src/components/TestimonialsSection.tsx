@@ -4,26 +4,7 @@ import { SunRays } from "./SunRays";
 import { getTranslation } from "@/i18n/server";
 import { type Locale } from "@/i18n/settings";
 
-// names are static; role/quote come from translations
-const NAMES = [
-  "John Smith",
-  "Emily Davis",
-  "David Lee",
-  "Mark Thompson",
-  "Brian Clark",
-  "Daniel Carter",
-];
-
-function initials(name: string) {
-  return name
-    .split(" ")
-    .map((w) => w[0])
-    .join("")
-    .slice(0, 2)
-    .toUpperCase();
-}
-
-type Item = { role: string; quote: string };
+type Item = { title: string; desc: string };
 
 export async function TestimonialsSection({ locale }: { locale: Locale }) {
   const { t } = await getTranslation(locale);
@@ -51,23 +32,18 @@ export async function TestimonialsSection({ locale }: { locale: Locale }) {
         </div>
 
         <div className="mt-16 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {NAMES.map((name, i) => {
-            const item = items[i];
+          {items.map((item, i) => {
             return (
-              <article key={name} className="card flex flex-col p-7">
-                <div className="text-[15px] text-yellow-400">★★★★★</div>
-                <p className="mt-4 flex-1 text-[14px] leading-relaxed text-white/70">
-                  &ldquo;{item?.quote}&rdquo;
+              <article key={item.title} className="card flex flex-col p-7">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-[12px] bg-gradient-to-b from-[#4f1ad6] to-[#8059e3] text-[16px] font-semibold text-white">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <h3 className="mt-5 text-[20px] font-medium tracking-[-0.4px] text-white">
+                  {item.title}
+                </h3>
+                <p className="mt-3 flex-1 text-[14px] leading-relaxed text-white/60">
+                  {item.desc}
                 </p>
-                <div className="mt-6 flex items-center gap-3">
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-b from-[#4f1ad6] to-[#8059e3] text-[14px] font-semibold text-white">
-                    {initials(name)}
-                  </span>
-                  <div>
-                    <p className="text-[14px] font-medium">{name}</p>
-                    <p className="text-[12px] text-white/50">{item?.role}</p>
-                  </div>
-                </div>
               </article>
             );
           })}

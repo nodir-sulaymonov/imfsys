@@ -1,29 +1,18 @@
-import Image from "next/image";
 import { Badge } from "./Badge";
 import { getTranslation } from "@/i18n/server";
 import { type Locale } from "@/i18n/settings";
 
-type Project = {
-  img: string;
+type Group = {
   title: string;
-  person: string;
-  role: string;
-  wide?: boolean;
+  projects: string[];
 };
-
-const PROJECTS: Project[] = [
-  { img: "qizlar", title: "Qizlar akademiyasi", person: "Azimov Samandar", role: "Backend Developer" },
-  { img: "uzches", title: "Uzchess", person: "Azimov Samandar", role: "Backend Developer" },
-  { img: "nexus", title: "Nexus", person: "Azimov Samandar", role: "Backend Developer" },
-  { img: "fonus-kids", title: "Fonus Kids", person: "Azimov Samandar", role: "Backend Developer", wide: true },
-  { img: "uzches", title: "Uzchess", person: "Azimov Samandar", role: "Backend Developer" },
-];
 
 const META =
   "rounded-lg border border-[#373A41] bg-[#13161B]/70 px-2.5 py-1 text-[13px] font-medium text-[#CECFD2] backdrop-blur-sm";
 
 export async function TeamSection({ locale }: { locale: Locale }) {
   const { t } = await getTranslation(locale);
+  const groups = t("team.groups", { returnObjects: true }) as Group[];
 
   return (
     <section id="team" className="relative py-16">
@@ -39,33 +28,22 @@ export async function TeamSection({ locale }: { locale: Locale }) {
           </p>
         </div>
 
-        {/* projects grid */}
-        <div className="grid w-full auto-rows-[300px] gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {PROJECTS.map((p, i) => (
+        <div className="grid w-full gap-4 md:grid-cols-2 lg:grid-cols-4">
+          {groups.map((group) => (
             <article
-              key={i}
-              className={`group relative h-full overflow-hidden rounded-[14px] border border-[#121212] bg-[#0c0c0e] ${
-                p.wide ? "lg:col-span-2" : ""
-              }`}
+              key={group.title}
+              className="relative overflow-hidden rounded-[14px] border border-white/[0.07] bg-[#080808] p-6"
             >
-              <Image
-                src={`/assets/team/${p.img}.png`}
-                alt={p.title}
-                fill
-                sizes={p.wide ? "(min-width:1024px) 66vw, 100vw" : "(min-width:1024px) 33vw, 100vw"}
-                className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
-              />
-              {/* bottom gradient so the text is readable */}
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
-
-              <div className="absolute inset-x-0 bottom-0 flex flex-col gap-3 p-5">
-                <h3 className="text-[20px] font-medium tracking-[-0.4px] text-white">
-                  {p.title}
-                </h3>
-                <div className="flex flex-wrap gap-2.5">
-                  <span className={META}>{p.person}</span>
-                  <span className={META}>{p.role}</span>
-                </div>
+              <span className="absolute inset-x-10 top-0 h-px bg-[linear-gradient(90deg,rgba(79,26,214,0),#4F1AD6_50%,rgba(79,26,214,0))]" />
+              <h3 className="text-[22px] font-medium tracking-[-0.5px] text-white">
+                {group.title}
+              </h3>
+              <div className="mt-5 flex flex-wrap gap-2.5">
+                {group.projects.map((project) => (
+                  <span key={project} className={META}>
+                    {project}
+                  </span>
+                ))}
               </div>
             </article>
           ))}

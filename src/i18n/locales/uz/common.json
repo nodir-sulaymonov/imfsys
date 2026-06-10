@@ -2,21 +2,21 @@
   "nav": {
     "home": "Bosh sahifa",
     "about": "Biz haqimizda",
-    "portfolio": "Portfolio",
+    "portfolio": "Loyihalar",
     "contact": "Aloqa",
     "faq": "Savollar",
     "getInTouch": "Bog'lanish"
   },
   "hero": {
-    "badge": "Yangi avlod AI studiyasi",
-    "title1": "AI asosidagi muvaffaqiyat",
-    "title2": "Kelajakni qayta belgilaymiz.",
-    "desc": "Innovatsiyani qayta belgilaydigan eng so'nggi yechimlarni yaratamiz. AI texnologiyalari bilan kelajakda oldinda bo'ling.",
+    "badge": "Dasturiy ta'minot va SI yechimlari",
+    "title1": "Biznes o'sishini tezlashtiradigan",
+    "title2": "dasturiy ta'minot va SI yechimlari.",
+    "desc": "Korporativ ilovalar va SaaS platformalardan SI asosidagi tahlil hamda avtomatlashtirish tizimlarigacha.",
     "connect": "Biz bilan bog'lanish"
   },
   "about": {
     "badge": "Biz haqimizda",
-    "text": "Ijodkorlik, hamkorlik va yuksak mahorat asosida qurilgan imfsys — bu mukammal natijalarga erishishga bag'ishlangan soha mutaxassislaridan iborat faol jamoa…",
+    "text": "IMFSYS — startap va korporativ kompaniyalarga kengaytiriladigan raqamli mahsulotlar, aqlli tahlil platformalari va avtomatlashtirish tizimlarini yaratishda yordam beradigan dasturiy ta'minot hamda SI yechimlari kompaniyasi. Jamoamiz bank sohasi, logistika, fintech, blokcheyn, ta'lim va minglab foydalanuvchilarga ega SaaS mahsulotlarida tajribaga ega.",
     "book": "Uchrashuvga yozilish"
   },
   "features": {
@@ -25,11 +25,11 @@
     "desc": "imfsys biznesingizni yuqori darajaga ko'taradigan o'ylangan imkoniyatlarga boy.",
     "fullcycle": {
       "title": "To'liq tsikl ishlab chiqish",
-      "desc": "G'oyadan deploygacha — dizayn, frontend, backend, infrastruktura. Bitta jamoa, bitta mas'uliyat."
+      "desc": "G'oyadan ishga tushirishgacha — dizayn, frontend, backend va infratuzilma. Bitta jamoa, bitta mas'uliyat."
     },
     "cleancode": {
       "title": "Toza va qo'llab quvvatlanadigan kod",
-      "desc": "Test, hujjat, code review — har bir kommit. Mahsulotingiz 5 yil keyin ham yangilanishga tayyor."
+      "desc": "Testlar, hujjatlar va kod ko'rib chiqish — har bir kommitda. Mahsulotingiz yillar o'tib ham rivojlantirishga tayyor bo'ladi."
     },
     "deadlines": {
       "title": "Aniq muddatlar, shaffof jarayon",
@@ -44,7 +44,7 @@
       "desc": "Yetakchi platformalar va jarayonlar bilan tez integratsiya."
     },
     "speech": {
-      "title": "AI nutqni tanish",
+      "title": "SI yordamida nutqni tanish",
       "desc": "Ilovalaringizga ovoz orqali tinglash va boshqarish imkonini bering.",
       "label": "Nutqni tanish"
     },
@@ -62,7 +62,7 @@
     },
     "vision": {
       "title": "Kompyuter ko'rishi",
-      "desc": "AI asosida rasm va video tanish."
+      "desc": "SI asosida rasm va videolarni tanish."
     },
     "ux": {
       "title": "Optimallashtirilgan UX/UI",
@@ -70,7 +70,7 @@
     },
     "predictive": {
       "title": "Bashoratli tahlil",
-      "desc": "AI yordamida ma'lumotga asoslangan qarorlar qabul qiling."
+      "desc": "SI yordamida ma'lumotga asoslangan qarorlar qabul qiling."
     }
   },
   "technologies": {
@@ -80,45 +80,105 @@
   "services": {
     "badge": "Xizmatlar",
     "title": "Biznesingiz uchun to'liq texnologik yechimlar",
-    "desc": "Startupdan korporatsiyagacha — har bir mijozga moslangan, kengaytirilishi mumkin bo'lgan arxitektura va sifatli kod.",
-    "book": "Book a 15-min call",
+    "desc": "Startapdan korporatsiyagacha — har bir mijozga moslangan, kengaytirilishi mumkin bo'lgan arxitektura va sifatli kod.",
+    "book": "15 daqiqalik qo'ng'iroqni rejalashtirish",
     "items": {
       "web": {
         "title": "Veb ilovalar",
-        "desc": "SaaS platformalar, CRM/ERP tizimlari, marketplace va admin panellar. React, Next.js va Node.js asosida."
+        "desc": "SaaS platformalar, CRM/ERP tizimlari, savdo platformalari va boshqaruv panellari. React, Next.js va Node.js asosida."
       },
       "mobile": {
         "title": "Mobil ilovalar",
         "desc": "iOS va Android uchun cross-platform yechimlar. Flutter va React Native bilan tezkor, sezgir interfeyslar."
       },
       "backend": {
-        "title": "Backend & API",
-        "desc": "Mikroservislar, REST/GraphQL API, real-time tizimlar. Yuqori yuk va xavfsizlik talablariga moslangan."
+        "title": "Backend va API",
+        "desc": "Mikroservislar, REST/GraphQL API va real vaqt tizimlari. Yuqori yuklama va xavfsizlik talablariga moslangan."
       },
       "uiux": {
         "title": "UI/UX dizayn",
-        "desc": "Foydalanuvchi tadqiqotidan high-fidelity prototipgacha. Konversiyani oshiradigan, sevib ishlatiladigan interfeyslar."
+        "desc": "Foydalanuvchi tadqiqotidan batafsil prototipgacha. Konversiyani oshiradigan, qulay interfeyslar."
       },
       "devops": {
-        "title": "DevOps & Cloud",
-        "desc": "CI/CD pipeline, konteynerizatsiya, monitoring va auto-scaling. Infratuzilmangiz har doim ishonchli ishlaydi."
+        "title": "DevOps va bulutli infratuzilma",
+        "desc": "CI/CD jarayonlari, konteynerizatsiya, monitoring va avtomatik kengaytirish. Infratuzilmangiz har doim ishonchli ishlaydi."
       },
       "ai": {
-        "title": "AI integratsiya",
-        "desc": "Mahsulotingizga AI imkoniyatlari: chat-botlar, hujjat tahlili, tavsiya tizimlari va kontent generatsiyasi."
+        "title": "SI integratsiyasi",
+        "desc": "Mahsulotingizga SI imkoniyatlari: chat-botlar, hujjat tahlili, tavsiya tizimlari va kontent generatsiyasi."
+      },
+      "bi": {
+        "title": "SI asosidagi biznes tahlil",
+        "desc": "Ma'lumotlar bazalari, CRM, ERP va operatsion tizimlaringizni SI asosidagi tahlil bilan ulang. Rahbarlar uchun dashboardlar, biznes xulosalar, prognozlar va oddiy tildagi hisobotlarni oling."
       }
     }
   },
-  "portfolio": {
-    "badge": "Portfolio",
-    "title": "Birinchi loyiha — bosh barmoq bilan bajarilgan.",
-    "desc": "Uztech jamoasi sifatida biz hozirgacha bitta to'liq mustaqil mahsulotni boshidan oxirigacha amalga oshirdik. Va u biz uchun visit-kartochka.",
-    "cardTags": [
-      "Logistic",
-      "2025–2026"
+  "aiAnalytics": {
+    "badge": "Biznes tahlil uchun SI agent",
+    "title": "Kompaniya ma'lumotlarini biznes qarorlariga aylantiring",
+    "intro": [
+      "Ko'plab kompaniyalar ma'lumot to'playdi.",
+      "Ammo juda kam kompaniyalar undan samarali foydalanadi."
     ],
-    "cardTitle": "FlexObo — logistika kompaniyalari uchun avtomatlashtirilgan boshqaruv platformasi",
-    "cardDesc": "Yuk tashish kompaniyalari uchun yagona ekosistema: buyurtmalar, haydovchilar, yo'nalishlarni real-time kuzatish, hujjat aylanishi va moliyaviy hisobotlar. G'oyadan ishga tushirishgacha — to'liq Uztech jamoasining mehnati.",
+    "connect": "Bizning SI tahlil agentimiz ma'lumotlar bazalari, ERP, CRM, buxgalteriya tizimlari, Excel fayllari va API'laringizga ulanib, biznes faoliyatini real vaqt rejimida tahlil qiladi.",
+    "bullets": [
+      "Trendlarni aniqlaydi",
+      "Xavflarni topadi",
+      "O'sish imkoniyatlarini ko'rsatadi",
+      "Boshqaruv panellarini yaratadi",
+      "Oddiy tilda savollarga javob beradi",
+      "Hisobotlarni avtomatik tayyorlaydi"
+    ],
+    "ask": "Shunchaki so'rang:",
+    "questions": [
+      "O'tgan oy savdolar nega kamaydi?",
+      "Eng ko'p foyda keltirayotgan mijozlar qaysilar?"
+    ]
+  },
+  "industries": {
+    "badge": "Soha tajribasi",
+    "title": "Biz tushunadigan sohalar",
+    "desc": "Operatsion tizimlar, moliyaviy mahsulotlar, korporativ platformalar va tez o'sayotgan raqamli mahsulotlar bo'yicha kontekst bilan ishlaymiz.",
+    "items": [
+      {
+        "title": "Logistika",
+        "desc": "Avtopark boshqaruvi, TMS, yo'nalishlarni optimallashtirish, yuk tashish platformalari."
+      },
+      {
+        "title": "Fintech",
+        "desc": "To'lov tizimlari, hamyonlar, tranzaksiyalarni qayta ishlash, bank integratsiyalari."
+      },
+      {
+        "title": "Bank sohasi",
+        "desc": "Korporativ darajadagi xavfsiz tizimlar va mijozlar uchun ilovalar."
+      },
+      {
+        "title": "Blokcheyn",
+        "desc": "Hamyonlar, smart-kontrakt platformalari, raqamli aktivlar infratuzilmasi."
+      },
+      {
+        "title": "Ta'lim",
+        "desc": "O'quv platformalari, talabalarni boshqarish tizimlari va ta'lim ekotizimlari."
+      },
+      {
+        "title": "Chakana savdo va POS",
+        "desc": "Savdo nuqtasi tizimlari, ombor boshqaruvi va hisobotlar."
+      }
+    ]
+  },
+  "portfolio": {
+    "badge": "Loyihalar",
+    "title": "Biz yaratgan mahsulotlar",
+    "desc": "Biz o'z mahsulotlarimizni ham, mijozlar uchun tizimlarni ham yaratamiz. FlexOBO — logistika operatsiyalari uchun raqamli yuk tashish platformasi va mini-TMS.",
+    "cardTags": [
+      "Logistika",
+      "Veb",
+      "Mobil ilova",
+      "Telegram",
+      "SI funksiyalari"
+    ],
+    "cardTitle": "FlexOBO — raqamli yuk tashish platformasi va mini-TMS",
+    "cardDesc": "Yuk tashish kompaniyalari uchun yagona ekotizim: buyurtmalar, haydovchilar, yo'nalishlarni real vaqt rejimida kuzatish, hujjat aylanishi, Telegram jarayonlari va moliyaviy hisobotlar. G'oyadan ishga tushirishgacha IMFSYS jamoasi tomonidan yaratilgan.",
     "stats": [
       {
         "value": "11 oy",
@@ -130,7 +190,7 @@
       },
       {
         "value": "99.9%",
-        "label": "Uptime"
+        "label": "Barqarorlik"
       }
     ],
     "tech": [
@@ -142,9 +202,27 @@
     ]
   },
   "team": {
-    "badge": "Jamoa",
-    "title": "Bizning jamoa qatnashgan boshqa loyihalar.",
-    "desc": "Uztech yangi kompaniya, ammo jamoamiz emas. Bu yerda hodimlarimiz ilgari turli xil mahsulot va xalqaro buyurtmalarda qo'shgan hissalari."
+    "badge": "Jamoa tajribasi",
+    "title": "Muhandislarimiz qatnashgan loyihalar",
+    "desc": "IMFSYS yangi kompaniya, ammo jamoamiz backend, full-stack, frontend va mobil mahsulot ishlab chiqish bo'yicha amaliy tajribaga ega.",
+    "groups": [
+      {
+        "title": "Backend",
+        "projects": ["UzChess", "Qizlar Akademiyasi", "Nexus Logistics", "Fonus Kids"]
+      },
+      {
+        "title": "Full Stack",
+        "projects": ["Sberbank", "Concordium", "Sovereign Wallet", "SmartPOS"]
+      },
+      {
+        "title": "Frontend",
+        "projects": ["Mubert", "Modus BI", "Tennisi"]
+      },
+      {
+        "title": "Mobil ilovalar",
+        "projects": ["CRUD", "Qarz Daftar", "Quiz Game", "Toy Qachon", "Salyam"]
+      }
+    ]
   },
   "integrations": {
     "badge": "Integratsiyalar",
@@ -154,35 +232,35 @@
     "button": "imfsys haqida batafsil"
   },
   "testimonials": {
-    "badge": "Sharhlar",
-    "title1": "Mijozlarimiz nima deydi",
-    "title2": "imfsys mahorati haqida",
-    "desc": "Mamnun mijozlarimizni tinglang! Biz ularga maqsadlariga erishishda qanday yordam berganimizni ko'ring.",
-    "book": "Uchrashuvga yozilish",
+    "badge": "Nega IMFSYS",
+    "title1": "Kompaniyalar nega",
+    "title2": "IMFSYSga ishonadi",
+    "desc": "Jiddiy raqamli mahsulotlar, uzoq muddatli egalik va o'lchanadigan biznes natijalari uchun yetkazib berish modeli.",
+    "book": "Loyihani muhokama qilish",
     "items": [
       {
-        "role": "CEO, Innovate Solutions",
-        "quote": "Ular nafaqat yuqori darajadagi sayt yaratdi, balki raqamli mavjudligimizni yaxshilashga yordam bergan strategik maslahatlar ham berdi."
+        "title": "Tajribali muhandislar",
+        "desc": "Logistika, fintech, bank sohasi, blokcheyn, ta'lim va SaaS bo'yicha amaliy tajribaga ega mutaxassislar."
       },
       {
-        "role": "Mahsulot menejeri, Nexus Digital",
-        "quote": "Jamoa murakkab talablarimizni tushundi va bozorda ajralib turadigan qulay, yuqori samarali sayt taqdim etdi."
+        "title": "Korporativ darajadagi arxitektura",
+        "desc": "Kengayish, xavfsizlik, qo'llab-quvvatlash va real biznes operatsiyalari bilan integratsiya uchun loyihalangan tizimlar."
       },
       {
-        "role": "Asoschi, GreenLeaf Enterprises",
-        "quote": "Ularning innovatsion yechimlari jarayonlarimizni soddalashtirdi, dizayn va ishlab chiqish ham funksional, ham ajoyib."
+        "title": "Haftalik demo taqdimotlar",
+        "desc": "Doimiy demolar, sprint hisobotlari va jarayon bo'yicha aniq ko'rinishga ega shaffof ish usuli."
       },
       {
-        "role": "Kreativ direktor, PixelWorks Studio",
-        "quote": "Ijodiy yondashuv va tafsilotlarga e'tibor bizni hayratda qoldirdi. Jamoa g'oyalarimizni ajoyib saytga aylantirdi."
+        "title": "Manba kodi to'liq sizniki",
+        "desc": "Mijozlar kod bazasi, hujjatlar va mahsulot materiallari ustidan to'liq egalik oladi."
       },
       {
-        "role": "Jamoa rahbari, Mandro Designs",
-        "quote": "Ular barcha ehtiyojlarimizni qondiradigan individual yechim taqdim etdi. Sayt zamonaviy, funksional va mijoz tajribasini yaxshiladi."
+        "title": "Uzoq muddatli qo'llab-quvvatlash",
+        "desc": "Ishga tushirilgandan keyin yaxshilash, monitoring, integratsiyalar, kengaytirish va texnik xizmat bo'yicha yordam."
       },
       {
-        "role": "Asoschi, Fusion Studios",
-        "quote": "Ularning fidoyiligi va tafsilotlarga e'tibori tengsiz. Sayt brendimizni mukammal aks ettiradi."
+        "title": "Mahsulotga yo'naltirilgan yondashuv",
+        "desc": "Faqat funksiyalarni yetkazish emas, balki biznes qiymati, foydalanuvchi jarayonlari va o'lchanadigan natijalarga e'tibor beramiz."
       }
     ]
   },
@@ -190,40 +268,40 @@
     "badge": "Savollar",
     "title1": "Ko'p beriladigan",
     "title2": "savollar",
-    "desc": "Savollaringiz bormi? FAQ bo'limimizda eng ko'p beriladigan savollarga tezkor javoblar mavjud.",
+    "desc": "Dasturiy ta'minot, SI asosidagi tahlil yoki tizimlar integratsiyasini rejalashtirayotgan kompaniyalar uchun qisqa javoblar.",
     "items": [
       {
-        "q": "Boshlash uchun nima kerak?",
-        "a": "Shunchaki g'oyangiz bilan bizga murojaat qiling. Rejalashtirishdan ishga tushirishgacha har bir bosqichda yordam beramiz — texnik bilim shart emas."
+        "q": "Loyiha narxi qancha?",
+        "a": "Narx loyiha hajmi, integratsiyalar, jamoa hajmi va muddatlarga bog'liq. Qisqa tanishuv qo'ng'irog'idan keyin bosqichlar bo'yicha amaliy baho tayyorlaymiz."
       },
       {
-        "q": "Qanday moslashtirish imkoniyatlari bor?",
-        "a": "Barcha ranglar, shriftlar, tartib va bo'limlar to'liq moslashtiriladi, shunda natija brendingizga mos keladi."
+        "q": "Ishlab chiqish qancha vaqt oladi?",
+        "a": "Kichik MVP bir necha hafta olishi mumkin, korporativ platformalar esa odatda bir necha oy talab qiladi. Natijani ertaroq chiqarish uchun ishni bosqichlarga bo'lamiz."
       },
       {
-        "q": "Yangi boshlovchi uchun tahrirlash qanchalik oson?",
-        "a": "Juda oson. Biz toza, yaxshi tuzilgan komponentlardan foydalanamiz, shuning uchun o'zgartirishlar oddiy va xavfsiz."
+        "q": "Mavjud mahsulot bilan ishlay olasizmi?",
+        "a": "Ha. Mavjud kod bazasini audit qilish, mahsulotni barqarorlashtirish, yangi funksiyalar qo'shish, arxitekturani yaxshilash yoki uzoq muddatli ishlab chiqishni o'z zimmamizga olishimiz mumkin."
       },
       {
-        "q": "Pulni qaytarish kafolati haqida batafsil?",
-        "a": "Biz 30 kunlik pulni qaytarish kafolatini beramiz — agar mos kelmasa, pulingizni to'liq qaytaramiz."
+        "q": "Ishga tushirilgandan keyin qo'llab-quvvatlaysizmi?",
+        "a": "Ha. Chiqarilgandan keyin monitoring, xatolarni tuzatish, yaxshilash, infratuzilma, integratsiyalar va mahsulotni kengaytirish bo'yicha qo'llab-quvvatlaymiz."
       },
       {
-        "q": "Dasturlashni bilishim kerakmi?",
-        "a": "Yo'q. Hammasini vizual boshqarish mumkin. Dasturlash bilimi majburiy emas."
+        "q": "SI yechimlar qura olasizmi?",
+        "a": "Ha. SI tahlil agentlari, avtomatlashtirish vositalari, chat-botlar, hujjatlarni tahlil qilish tizimlari, tavsiya tizimlari va mahsulotlar uchun SI funksiyalarini yaratamiz."
       },
       {
-        "q": "Xariddan keyin nima olaman?",
-        "a": "Siz to'liq yechim, doimiy yangilanishlar va qo'llab-quvvatlash jamoamizga kirish huquqini olasiz."
+        "q": "Mavjud tizimlarimiz bilan integratsiya qila olasizmi?",
+        "a": "Ha. Ma'lumotlar bazalari, ERP, CRM, buxgalteriya tizimlari, to'lov provayderlari, ichki API'lar va uchinchi tomon platformalari bilan integratsiya qilamiz."
       }
     ]
   },
   "cta": {
-    "badge": "Bizning bir qismimiz bo'ling",
-    "title1": "Brendingizni yuksaltirishga tayyormisiz",
-    "title2": "yangi avlod innovatsiyalari bilan?",
-    "desc": "Keyingi qadamni tashlashga tayyormisiz? Hoziroq bizga qo'shiling va g'oyangizni mutaxassis yordami bilan voqelikka aylantiring.",
-    "book": "Uchrashuvga yozilish"
+    "badge": "Loyihani IMFSYS bilan boshlang",
+    "title1": "Biznesni rivojlantiradigan",
+    "title2": "mahsulot yaratishga tayyormisiz?",
+    "desc": "G'oyangizni muhokama qilamiz, texnik hajmni baholaymiz va aniq ishlab chiqish rejasini taklif qilamiz.",
+    "book": "Loyihani muhokama qilish"
   },
   "footer": {
     "tagline": "Kelajakni quruvchi jamoalar uchun texnologik yechimlar.",
@@ -237,7 +315,7 @@
     "pages": [
       "Bosh sahifa",
       "Biz haqimizda",
-      "Portfolio",
+      "Loyihalar",
       "Aloqa",
       "Savollar"
     ]

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import i18next from "i18next";
 import {
   initReactI18next,
@@ -26,12 +26,6 @@ i18next
 export function useTranslation(lng: string, ns?: string | string[]) {
   const ret = useTranslationOrg(ns);
   const { i18n } = ret;
-  const [activeLng, setActiveLng] = useState(i18n.resolvedLanguage);
-
-  useEffect(() => {
-    if (activeLng === i18n.resolvedLanguage) return;
-    setActiveLng(i18n.resolvedLanguage);
-  }, [activeLng, i18n.resolvedLanguage]);
 
   useEffect(() => {
     if (!lng || i18n.resolvedLanguage === lng) return;

@@ -8,15 +8,15 @@
     "getInTouch": "Get In Touch"
   },
   "hero": {
-    "badge": "Next-Gen AI Studio",
-    "title1": "AI-Driven Success",
-    "title2": "Redefining the Future.",
-    "desc": "Creating latest solutions that redefine innovation. Stay ahead with AI-powered technology for the future.",
+    "badge": "Software Engineering & AI Solutions",
+    "title1": "Building Software and AI Solutions",
+    "title2": "That Drive Business Growth.",
+    "desc": "From enterprise applications and SaaS platforms to AI-powered analytics and automation systems.",
     "connect": "Connect With Us"
   },
   "about": {
     "badge": "About Us",
-    "text": "Built on creativity, collaboration, and top excellence, imfsys is a dynamic team of industry experts committed to achieving exceptional great results…",
+    "text": "IMFSYS is a software engineering and AI solutions company helping startups and enterprises build scalable digital products, intelligent analytics platforms and automation systems. Our team brings experience from banking, logistics, fintech, blockchain, education and SaaS products used by thousands of users.",
     "book": "Book an Appointment"
   },
   "features": {
@@ -106,19 +106,79 @@
       "ai": {
         "title": "AI integration",
         "desc": "AI capabilities for your product: chatbots, document analysis, recommendation systems and content generation."
+      },
+      "bi": {
+        "title": "AI Business Intelligence",
+        "desc": "Connect your databases, CRM, ERP and operational systems to AI-powered analytics. Get executive dashboards, business insights, forecasting and natural-language reporting."
       }
     }
   },
+  "aiAnalytics": {
+    "badge": "AI Business Intelligence Agent",
+    "title": "Turn Your Company Data Into Business Decisions",
+    "intro": [
+      "Most companies collect data.",
+      "Very few companies actually use it."
+    ],
+    "connect": "Our AI Analytics Agent connects directly to your databases, ERP, CRM, accounting systems, spreadsheets, and APIs to analyze business performance in real time.",
+    "bullets": [
+      "Detects trends",
+      "Identifies business risks",
+      "Finds growth opportunities",
+      "Creates executive dashboards",
+      "Answers questions in plain language",
+      "Generates reports automatically"
+    ],
+    "ask": "Instead of manually building reports, simply ask:",
+    "questions": [
+      "Why did sales decrease last month?",
+      "Which customers generate the highest profit?"
+    ]
+  },
+  "industries": {
+    "badge": "Industry Experience",
+    "title": "Industries We Know",
+    "desc": "We build with domain context from operational systems, financial products, enterprise platforms and high-growth digital products.",
+    "items": [
+      {
+        "title": "Logistics",
+        "desc": "Fleet management, TMS, route optimization, freight marketplaces."
+      },
+      {
+        "title": "Fintech",
+        "desc": "Payment systems, wallets, transaction processing, banking integrations."
+      },
+      {
+        "title": "Banking",
+        "desc": "Enterprise-grade secure systems and customer-facing applications."
+      },
+      {
+        "title": "Blockchain",
+        "desc": "Wallets, smart-contract platforms, digital asset infrastructure."
+      },
+      {
+        "title": "Education",
+        "desc": "Learning platforms, student management systems, educational ecosystems."
+      },
+      {
+        "title": "Retail & POS",
+        "desc": "Point-of-sale systems, inventory management and reporting."
+      }
+    ]
+  },
   "portfolio": {
     "badge": "Portfolio",
-    "title": "First project — built by hand.",
-    "desc": "As the Uztech team, we've so far delivered one fully independent product from start to finish. And it's our calling card.",
+    "title": "Products We Built",
+    "desc": "We build our own products as well as client systems. FlexOBO is our digital freight marketplace and mini-TMS for logistics operations.",
     "cardTags": [
-      "Logistic",
-      "2025–2026"
+      "Logistics",
+      "Web",
+      "Mobile",
+      "Telegram",
+      "AI-powered features"
     ],
-    "cardTitle": "FlexObo — automated management platform for logistics companies",
-    "cardDesc": "A single ecosystem for freight companies: orders, drivers, real-time route tracking, document flow and financial reports. From idea to launch — fully built by the Uztech team.",
+    "cardTitle": "FlexOBO — digital freight marketplace and mini-TMS",
+    "cardDesc": "A single ecosystem for freight companies: orders, drivers, real-time route tracking, document flow, Telegram workflows and financial reports. Built from idea to launch by the IMFSYS team.",
     "stats": [
       {
         "value": "11 mo",
@@ -142,9 +202,27 @@
     ]
   },
   "team": {
-    "badge": "Team",
-    "title": "Other projects our team has worked on.",
-    "desc": "Uztech is a new company, but our team isn't. Here's what our people contributed to various products and international projects before."
+    "badge": "Team Experience",
+    "title": "Projects our engineers have contributed to",
+    "desc": "IMFSYS is a new company, but our team brings practical experience across backend, full-stack, frontend and mobile product development.",
+    "groups": [
+      {
+        "title": "Backend",
+        "projects": ["UzChess", "Qizlar Akademiyasi", "Nexus Logistics", "Fonus Kids"]
+      },
+      {
+        "title": "Full Stack",
+        "projects": ["Sberbank", "Concordium", "Sovereign Wallet", "SmartPOS"]
+      },
+      {
+        "title": "Frontend",
+        "projects": ["Mubert", "Modus BI", "Tennisi"]
+      },
+      {
+        "title": "Mobile",
+        "projects": ["CRUD", "Qarz Daftar", "Quiz Game", "Toy Qachon", "Salyam"]
+      }
+    ]
   },
   "integrations": {
     "badge": "Integrations",
@@ -154,35 +232,35 @@
     "button": "View About imfsys"
   },
   "testimonials": {
-    "badge": "Testimonial",
-    "title1": "What Our Clients Say",
-    "title2": "About imfsys's Excellence",
-    "desc": "Hear from our happy clients! See how we've helped them achieve their goals and create lasting impact.",
-    "book": "Book An Appointment",
+    "badge": "Why IMFSYS",
+    "title1": "Why Companies Trust",
+    "title2": "IMFSYS",
+    "desc": "A delivery model built for serious software products, long-term ownership and measurable business outcomes.",
+    "book": "Discuss Your Project",
     "items": [
       {
-        "role": "CEO, Innovate Solutions",
-        "quote": "They not only delivered a top-notch website but also provided strategic insights that helped us improve our overall digital presence."
+        "title": "Experienced engineers",
+        "desc": "Senior contributors with hands-on experience in logistics, fintech, banking, blockchain, education and SaaS."
       },
       {
-        "role": "Product Manager, Nexus Digital",
-        "quote": "The team understood our complex requirements and provided a user-friendly, high-performing website that stands out in the market."
+        "title": "Enterprise-grade architecture",
+        "desc": "Systems designed for scale, security, maintainability and integration with real business operations."
       },
       {
-        "role": "Founder, GreenLeaf Enterprises",
-        "quote": "Their innovative solutions helped streamline our operations, and the design and development is both functional and visually stunning."
+        "title": "Weekly delivery demos",
+        "desc": "A transparent process with frequent demos, sprint reporting and clear visibility into progress."
       },
       {
-        "role": "Creative Director, PixelWorks Studio",
-        "quote": "We were blown away by the creative approach and attention to detail. The team took our ideas and turned them into a stunning website."
+        "title": "Full ownership of source code",
+        "desc": "Clients receive complete ownership of the codebase, documentation and product assets."
       },
       {
-        "role": "Team Lead, Mandro Designs",
-        "quote": "They delivered a customized solution that addressed all of our business needs. The website is sleek, functional, and improved our customer experience."
+        "title": "Long-term support",
+        "desc": "Post-launch support for improvements, monitoring, integrations, scaling and maintenance."
       },
       {
-        "role": "Founder, Fusion Studios",
-        "quote": "Their dedication and attention to detail are unmatched. They delivered a beautifully designed website that perfectly reflects our brand."
+        "title": "Product-first approach",
+        "desc": "We focus on business value, user workflows and measurable outcomes, not just feature delivery."
       }
     ]
   },
@@ -190,31 +268,31 @@
     "badge": "FAQ",
     "title1": "Frequently",
     "title2": "Asked Questions",
-    "desc": "Have questions? Our FAQ section has you covered with quick answers to the most common inquiries.",
+    "desc": "Clear answers for companies planning software, AI analytics or system integration projects.",
     "items": [
       {
-        "q": "What do I need to get started?",
-        "a": "Just reach out to us with your idea. We'll guide you through every step — from planning to launch — no technical knowledge required."
+        "q": "How much does a project cost?",
+        "a": "Cost depends on scope, integrations, team size and timeline. After a short discovery call, we prepare a practical estimate with milestones."
       },
       {
-        "q": "What kind of customization is available?",
-        "a": "Every color, font, layout, and section is fully customizable so the result matches your brand perfectly."
+        "q": "How long does development take?",
+        "a": "Small MVPs can take weeks, while enterprise platforms usually require several months. We define phases so you can launch value early."
       },
       {
-        "q": "How easy is it to edit for beginners?",
-        "a": "Very easy. We build with clean, well-structured components so changes are simple and safe."
+        "q": "Can you work with an existing product?",
+        "a": "Yes. We can audit the current codebase, stabilize it, add new features, improve architecture or take over long-term development."
       },
       {
-        "q": "Let me know more about moneyback guarantee?",
-        "a": "We offer a 30-day money-back guarantee — if it isn't the right fit, we'll refund you in full."
+        "q": "Do you provide support after launch?",
+        "a": "Yes. We support monitoring, bug fixes, feature improvements, infrastructure, integrations and product scaling after release."
       },
       {
-        "q": "Do I need to know how to code?",
-        "a": "No. Everything can be managed visually. Coding knowledge is optional, not required."
+        "q": "Can you build AI solutions?",
+        "a": "Yes. We build AI analytics agents, automation tools, chatbots, document intelligence, recommendation systems and AI product features."
       },
       {
-        "q": "What will I get after purchasing the template?",
-        "a": "You get the full solution, ongoing updates, and access to our support team."
+        "q": "Can you integrate with our existing systems?",
+        "a": "Yes. We integrate with databases, ERP, CRM, accounting systems, payment providers, internal APIs and third-party platforms."
       }
     ]
   },
