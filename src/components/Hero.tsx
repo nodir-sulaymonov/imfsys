@@ -23,7 +23,7 @@ export async function Hero({ locale }: { locale: Locale }) {
       {/* smaller glowing ring */}
       <div className="pointer-events-none absolute -bottom-10 left-1/2 -translate-x-1/2 w-[2000px] max-w-none">
         <Image
-          src="/assets/hero-ring.png"
+          src="/assets/hero-ring.webp"
           alt=""
           width={1460}
           height={583}

@@ -108,7 +108,7 @@ export async function PortfolioSection({ locale }: { locale: Locale }) {
             {/* purple rays backdrop */}
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-10%,rgba(99,52,224,0.55),rgba(79,26,214,0.12)_45%,transparent_72%)]" />
             <Image
-              src="/assets/portfolio1.png"
+              src="/assets/portfolio1.webp"
               alt={t("portfolio.cardTitle")}
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"

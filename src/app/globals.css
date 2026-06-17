@@ -136,6 +136,26 @@ body {
   animation: marquee 30s linear infinite;
 }
 
+/* Team tab cards — fade + rise in when a tab is switched */
+@keyframes team-fade {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.team-fade {
+  animation: team-fade 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .team-fade {
+    animation: none;
+  }
+}
+
 /* Subtle radial section glow helper */
 .glow-violet {
   background: radial-gradient(50% 50% at 50% 50%, rgba(110, 86, 207, 0.35), transparent 70%);
